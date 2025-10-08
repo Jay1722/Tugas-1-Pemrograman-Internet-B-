@@ -53,7 +53,7 @@
       if ($conn->query($sql) === TRUE) {
         echo "<p class='mt-4 text-green-600 font-semibold text-center'>✅ Data berhasil disimpan.</p>";
         echo "<div class='text-center mt-2'>
-                <a href='index.php' class='underline text-blue-600 hover:text-blue-800'>Kembali ke Index</a>
+                <a href='index2.php' class='underline text-blue-600 hover:text-blue-800'>Kembali ke Index</a>
               </div>";
       } else {
         echo "<p class='mt-4 text-red-600 text-center'>❌ Error: " . $conn->error . "</p>";
@@ -81,3 +81,4 @@
   </script>
 </body>
 </html>
+
